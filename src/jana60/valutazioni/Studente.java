@@ -14,13 +14,13 @@ public class Studente {
 	boolean valutazione() {
 		boolean promossi = false;
 		if (assenze > 50) {
-			System.out.println("Lo studente con id: " + id + " é bocciato uuu");
+			System.out.println("Lo studente con id: " + id + " é bocciato ");
 		} else if (assenze >= 25 && assenze <= 50) {
 			if (mediaVoti > 2) {
-				System.out.println("Lo studente con id: " + id + " é promosso iiii");
+				System.out.println("Lo studente con id: " + id + " é promosso ");
 				promossi = true;
 			} else
-				System.out.println("Lo studente con id: " + id + " é bocciato ooooo");
+				System.out.println("Lo studente con id: " + id + " é bocciato");
 		} else if (mediaVoti >= 2) {
 			System.out.println("Lo studente con id: " + id + " é promosso");
 			promossi = true;
